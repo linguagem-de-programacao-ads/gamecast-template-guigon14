@@ -145,6 +145,19 @@ nav {
 
 
 /* ADICIONAR EVENTO - Inserir CSS da página de adicionar*/
+.formularioAdd {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: var(--font-defaut);
+
+    form {
+        padding: 5px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /*Media Query - Responsividade*/
 
@@ -155,7 +168,7 @@ nav {
 
     .cards {
         .cardItem {
-            width: 70%; 
+            width: 70%;
         }
     }
 

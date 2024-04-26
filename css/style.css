@@ -152,7 +152,6 @@ nav {
     font-family: var(--font-defaut);
 
     form {
-        padding: 5px;
         width: 40%;
         display: flex;
         flex-direction: column;
